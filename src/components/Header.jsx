@@ -8,8 +8,8 @@ const Header = () => {
     return (
         <div>
             <header className="header">
-                {/* <img src={cotafpv} className="Header-logo" alt="logo CotaFPV" /> */}
-                <video class="Header-logo" src={cotafpvVideo} autoPlay ></video>
+                <img src={cotafpv} className="Header-logo" alt="logo CotaFPV" />
+                {/* <video class="Header-logo" src={cotafpvVideo} autoPlay ></video> */}
                 <img src={scrool} className="Header-scrool" alt="Icone Screel" />
             </header>
         </div>
