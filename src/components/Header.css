@@ -1,0 +1,19 @@
+.header {
+    background-image: radial-gradient(circle, #584f55 ,#1e1b1f);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  .Header-logo{
+    width: 70vmin;
+  }
+  .Header-scrool{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 5vh;
+    height: 8vh;
+  }

@@ -1,0 +1,110 @@
+@media (min-width: 10px) {
+    .container {
+      padding-top: 4rem;
+      padding-left: 22%;
+      padding-right: 22%;
+    }
+  }
+  
+  @media (max-width: 1500px) {
+    .container {
+      padding-left: 15%;
+      padding-right: 15%;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .container {
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .container {
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+  }
+  
+  .contato {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+  }
+  
+  .cardContato {
+    width: 50%;
+    height: 30rem;
+    padding: 1.8rem;
+    margin-bottom: 2.1rem;
+    border-radius: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 10px 25px -10px rgba(0, 0, 0, 0.342), -10px -10px 25px -10px rgba(255, 255, 255, 0.082);
+    align-items: center;
+  }
+  
+  .tituloContato {
+    text-align: center;
+  }
+  
+  .tituloContato h1 {
+    font-size: 38px;
+    margin-bottom: 3rem;
+  }
+  
+  .tituloContato span {
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    color: #f9004d;
+    margin-bottom: 2rem;
+    font-weight: 600;
+  }
+  
+  input {
+    display: inline-block;
+    padding: 0 16px 0 12px;
+    width: 70%;
+    height: 2.5rem;
+    border: 0px solid;
+    border-radius: 4px;
+    background-color: #191b1e;
+    color: #999999;
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    color: #999999;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+  }
+  
+  .texto {
+    height: 8rem;
+    width: 20rem ;
+    color: #999999;
+    background-color:#191b1e ;
+  }
+  
+  .contato button {
+    width: 30%;
+    height: 2.5rem;
+    border: 0;
+    border-radius: 5px;
+    background-color: #212428;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    color: #f9004d;
+    font-weight: 600;
+    box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.342), -5px -5px 5px -5px rgba(255, 255, 255, 0.082);
+    cursor: pointer;
+  }
+  
+  .contato button:hover {
+    background-color: #191b1e;
+    color: #f9004d;
+  }
+  
